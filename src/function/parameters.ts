@@ -20,7 +20,7 @@ export const isUserSignedIn2 = (userId: string, username = 'NO NAME'): boolean =
   }
 }
 
-// レストパラメーターーを持つ関数
+// レストパラメーターを持つ関数
 export const sumProductsPrice = (...productsPrice: number[]): number => {
   return productsPrice.reduce((prevTotal, productPrice) => {
     return prevTotal + productPrice
